@@ -4,6 +4,7 @@
 #sudo cp /vagrant/sources.list /etc/apt/sources.list
 sudo cp /vagrant/ssh/id_rsa /home/ubuntu/.ssh/
 sudo cp /vagrant/ssh/id_rsa.pub /home/ubuntu/.ssh/
+sudo cp /vagrant/docker/gpg /home/ubuntu/gpg
 sudo apt-get update
 
 #prepare for jenkins installation
